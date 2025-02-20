@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REST-api exercise</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <h1>Solution to the exercise "Create a REST api"</h1>
+    <p>This exercise is about creating a REST api for a database with the tables <b>pets</b> and <b>petOwners</b> and
+      the views <b>petOwnersAndPets</b>, <b>petsWithoutOwners</b> and <b>peopleWithoutPets</b>.</p>
+    <p>So there isn't much of a frontend! All code important to the solution is in the <b>backend.js</b>-file.</p>
+    <h3>Get routes to try out</h3>
+    <ul>
+      <li><a href="/api/pets">/api/pets</a></li>
+      <li><a href="/api/pets/1">/api/pets/1</a> (try with other ids than 1 too)</li>
+      <li><a href="/api/petOwners">/api/petOwners</a></li>
+      <li><a href="/api/petOwners/2">/api/petOwners/2</a> (try with other ids than 2 too)</li>
+      <li><a href="/api/petOwnersAndPets">/api/petOwnersAndPets</a></li>
+      <li><a href="/api/petOwnersAndPets/4">/api/petOwnersAndPets/4</a> (try with other ids than 4 too)</li>
+      <li><a href="/api/petsWithoutOwners">/api/petsWithoutOwners</a></li>
+      <li><a href="/api/petsWithoutOwners/5">/api/petsWithoutOwners/5</a> (try with other ids than 5 too)</li>
+      <li><a href="/api/peopleWithoutPets">/api/peopleWithoutPets</a></li>
+      <li><a href="/api/peopleWithoutPets/6">/api/peopleWithoutPets/6</a> (try with other ids than 6 too)</li>
+    </ul>
+    <h4>Post, put and delete routes to try out</h4>
+    There are POST, PUT and DELETE routes for the tables (but not for the views). Those you can't try out directly in
+    your browser, instead you need a tool like <a target="_blank" href="https://www.thunderclient.com">Thunder
+      Client</a>.
+  </main>
+</body>
+
+</html>
